@@ -16,3 +16,10 @@
 - Forms- form, input(text, radio, submit, password..), label, action
   - table to stucture form
 - hw - colspan, rowspan, textares, fielset and legend, input: reset, submit, email, date
+
+# HTML Basics III
+
+- review table - table, tr, td, th, thead, tbody, tfoot
+- rowspan, colspan, caption tag, colgroup, col
+- blockquote, q, cite
+- hw - symbols(&), hyperlink image
