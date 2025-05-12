@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        font-family: "Roboto";
+      }
+      .card {
+        /* background-color: aqua; */
+        width: 380px;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 5px black;
+        display: inline-block;
+      }
+      .card img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+      .card p {
+        font-weight: 900;
+        font-size: 24px;
+        margin-bottom: 5px;
+      }
+      .price {
+        margin-top: 1.4rem;
+        margin-bottom: 1rem;
+      }
+      .price span {
+        font-weight: 900;
+        margin-left: 0.4rem;
+      }
+
+      .price > span:first-of-type {
+        color: rgb(106, 0, 255);
+      }
+      .price > span:nth-of-type(2) {
+        color: grey;
+      }
+      .price > span:nth-of-type(3) {
+        color: white;
+        background-color: rgb(0, 221, 136);
+        padding: 2px 4px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="/02_CSS_Basics/01_CSS_Basics_I/07_course-img.jpg" alt="" />
+      <p>Web Development Master</p>
+      <p>Course @dot Batch</p>
+      <div class="price">
+        <span>₹4500</span>
+        <span><del>₹6999</del></span>
+        <span>42% off</span>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/02_CSS_Basics/01_CSS_Basics_I/07_course-img.jpg" alt="" />
+      <p>Web Development Master</p>
+      <p>Course @dot Batch</p>
+      <div class="price">
+        <span>₹4500</span>
+        <span><del>₹6999</del></span>
+        <span>42% off</span>
+      </div>
+    </div>
+  </body>
+</html>

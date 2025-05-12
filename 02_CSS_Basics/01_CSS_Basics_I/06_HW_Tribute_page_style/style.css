@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+
+header > nav{
+    margin: 1rem 0;
+}
+
+header>p{
+    font-size: small;
+}
+
+header nav a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: darkcyan;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: small;
+}
+
+main figure{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(195, 255, 235);
+    padding: 1rem;
+}
+
+main figure img{
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+}
+main figure figcaption{
+    font-size: smaller;
+}
+
+main aside {
+    background-color: rgb(201, 255, 237);
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    margin: 1rem;
+    float: right;
+}
+
+section{
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+/* main>section:first-of-type{} */
+
+main > section:nth-of-type(2) ul{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+main>section:nth-of-type(2) ul li{
+    margin-bottom: 2px;
+}
+
+cite{
+    margin-left: 3rem;
+}
+
+main>section:nth-of-type(3) ul{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+main>section:nth-of-type(3) ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

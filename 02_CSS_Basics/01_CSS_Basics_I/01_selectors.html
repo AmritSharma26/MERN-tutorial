@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      p {
+        color: red;
+        font-size: large;
+      }
+      .green {
+        color: green;
+      }
+      .blue {
+        color: blue;
+      }
+      .small {
+        font-size: small;
+      }
+      .big {
+        font-size: large;
+      }
+
+      #first-button {
+        background-color: green;
+        color: white;
+      }
+      #intro-para {
+        background-color: aqua;
+      }
+
+      button:hover {
+        color: yellow;
+      }
+      /* a:hover {
+        color: green;
+      } */
+      .link-color:hover {
+        color: green;
+      }
+      #para-id:hover {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Selectors</h1>
+
+    <h2>Element Selector / tag selector / type selector</h2>
+
+    <p>This is a paragraph</p>
+    <p>This also a paragraph</p>
+
+    <h2>Class Selector</h2>
+
+    <p class="green">This is first para</p>
+    <p class="green">This is second para</p>
+    <p class="blue">This is third para</p>
+
+    <h1 class="small">abcd1</h1>
+    <h2 class="small">abcd2</h2>
+    <h3 class="small">abcd3</h3>
+    <h4 class="big">abcd4</h4>
+    <h5 class="big">abcd5</h5>
+    <h6 class="big">abcd6</h6>
+
+    <h2>ID Selector</h2>
+    <button id="first-button">Submit</button>
+    <p id="intro-para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia!
+    </p>
+
+    <h2>Pseudo-classes</h2>
+
+    <button>Submit</button><br />
+    <a href="https://www.youtube.com" class="link-color">Go to YouTube Hover</a>
+    <p id="para-id">Hover Change color</p>
+  </body>
+</html>

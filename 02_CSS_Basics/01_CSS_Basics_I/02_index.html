@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="/02_CSS_Basics/01_CSS_Basics_I/02_style.css" />
+    <!-- Internal CSS  -->
+    <style>
+      #para {
+        background-color: aquamarine;
+      }
+
+      p {
+        color: red;
+      }
+      .para-sf {
+        color: orange !important; /* bad practice */
+      }
+      #para-blue {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS  -->
+    <p style="background-color: aqua">
+      This is a paragraph styled by inline css
+    </p>
+
+    <p id="para">This is a paragraph styled by Internal CSS</p>
+
+    <p id="para-3">This is a paragraph styled by External CSS</p>
+
+    <!-- Specificity -->
+    <p class="para-sf" id="para-blue" style="color: green">
+      Lets see Specificity
+    </p>
+  </body>
+</html>

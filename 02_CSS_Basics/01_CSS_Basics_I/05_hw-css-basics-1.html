@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 1rem;
+      }
+      #box1 {
+        width: 70%;
+        height: 300px;
+        background-color: aqua;
+        margin: 10px;
+      }
+      #box2 {
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        margin: 10px;
+        /* margin: auto; */
+
+        /* margin-top: 20px; */
+        margin-left: 10%;
+        margin-bottom: 1rem;
+        margin-right: 20px;
+      }
+      #para1 {
+        font-family: "Trebuchet MS";
+      }
+      #para2 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      #para3 {
+        font-size: x-large;
+        font-weight: bold;
+        font-style: oblique;
+      }
+      #para4 {
+        text-emphasis: circle orange;
+      }
+      #container {
+        background-color: aquamarine;
+        margin: 10px;
+        padding: 10px;
+        width: 200px;
+        height: 300px;
+        overflow: auto;
+        /* overflow: hidden;
+        overflow: visible;
+        overflow: scroll; */
+
+        /* overflow-x: scroll; */
+        /* overflow-y: visible; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Homework CSS basics I</h1>
+    <br />
+    <h2>Explore Margin</h2>
+    <div class="box" id="box1">
+      <div class="box" id="box2"></div>
+      <div class="box" id="box2" style="display: inline-block"></div>
+      <div class="box" id="box2" style="display: inline-block"></div>
+    </div>
+    <br />
+    <h2>Explaore font family, weight, style and External font</h2>
+    <br />
+    <p id="para1">
+      Changing font family to Trebuchet MS: Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Rem, pariatur.
+    </p>
+    <br />
+    <p id="para2">
+      Changing font family to <strong>"Times New Roman", Times, serif</strong>:
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, pariatur.
+    </p>
+    <br />
+    <p id="para3">
+      Changing font weight and size, style - oblique(Just slants the regular
+      font)
+    </p>
+
+    <h2>emphasis and impotance</h2>
+    <p id="para4">This is text-emphase circle orange</p>
+    <p id="para5"><em>This is emphasized em tag</em></p>
+    <p id="para6">
+      <strong>This is strongly emphasized strong tag</strong>
+    </p>
+
+    <h2>Overflow</h2>
+    <div id="container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, dolor.
+        Autem tenetur saepe vitae, tempore quidem iste error laboriosam quam
+        aperiam minus dolorem similique, dicta esse hic consequatur quas rem
+        voluptates explicabo libero! Quo error molestiae mollitia deserunt.
+        Repudiandae deleniti ducimus vero ullam? Quae magni laboriosam sequi
+        provident tempore nesciunt cum. Nihil eius dolorem earum nostrum
+        consequatur impedit aperiam ipsam similique.
+      </p>
+    </div>
+  </body>
+</html>
