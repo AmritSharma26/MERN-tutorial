@@ -35,6 +35,7 @@
 - favicon using link tag
 - added symetic tags in linus torvalds page.
 - dom stucture
+- audio, vidio tags
 
 # CSS Basics
 
@@ -53,3 +54,13 @@
 - font weight, family, style, text-emphasis
 - overflow - auto, scroll, hidden, visible
 - Units - Absolute(mm, sm, in, px), percentage% , Relative(font:em, rem; viewport:vw, vh)
+
+## CSS Basics II
+
+- Gradient (background/backgrd-img)- linear-gradient, radial-gradient, conic-gradient
+- Shadow Effect - Text Shadow, Box Shadow
+- Dimentions - width, height, max/min-width/height
+- Overflow - auto, scroll, visible, hidden
+- Position - static, relative, absolute, fixed, sticky
+- 2d Transformation - translate, rotate, scale, skew, matrix
+- 3d transformation - perspective, preserve-3d, translate3d, translateZ, rotate3d, rotateX,Y,Z, scale3d, scaleZ

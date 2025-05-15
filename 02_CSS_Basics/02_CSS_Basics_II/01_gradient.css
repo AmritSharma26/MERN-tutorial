@@ -1,0 +1,126 @@
+*{
+    box-sizing:border-box;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: inline-flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.box0{
+    background-image: linear-gradient(red, blue);
+}
+
+.box1{
+    background-image: linear-gradient(135deg, orange 30%, white 40% 60%, green 80%);
+}
+
+.box2{
+    background-image: linear-gradient(to right, orange , white, green);
+}
+
+.box3{
+    background-image: repeating-linear-gradient(to top right,orange 19px, brown 20px , orange 21px, rgb(202, 131, 0) 15%);
+}
+
+.box4{
+    background-image: linear-gradient(  in hsl longer hue, blue , purple );
+}
+
+.box4_1{
+    background-image: 
+        linear-gradient(217deg, rgba(255, 0, 0, 80%), transparent 70.71%), 
+        linear-gradient(127deg, rgba(0, 255, 0, 80%), transparent 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, 80%), transparent 70.71%);
+}
+
+.box5{
+    background-image: radial-gradient(red, green);
+    background-blend-mode: multiply;
+}
+.box6{
+    background-image: radial-gradient(red, green);
+    width: 200px;
+}
+.box7{
+    color: yellow;
+    background-image: radial-gradient(circle 60px at 0% 50%, red 50%, green 90%, blue 200%);
+    width: 200px;
+}
+.box8{
+    background-image: repeating-radial-gradient(circle farthest-side at 0% 50%, orange 10%, yellow 20%);
+}
+.box9{
+    background-image: 
+        radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 60%),
+        radial-gradient(circle at 6% 75%, rgba(0, 0, 255, 0.5), transparent 60%),
+        radial-gradient(circle at 93% 75%, rgba(0, 255, 0, 0.5), transparent 60%);
+}
+
+.box10{
+    background-image: conic-gradient(green, blue);
+}
+
+.box11{
+    background-image: conic-gradient(from 90deg, green, blue, red);
+}
+
+.box12{
+    border-radius: 50%;
+    background-image: conic-gradient(from 0deg at 30% 60%, red 120deg,  orange 120deg 240deg, yellow 240deg 360deg );
+}
+
+.box13{
+    background: conic-gradient(#4fc3f7 0% 60%, #ccc 60% 100%);
+        border-radius: 50%;
+        mask: radial-gradient(circle at center, black 60%, transparent 61%);
+}
+
+.box14 {
+    background-image: repeating-conic-gradient(rgb(255, 208, 0) 0deg 5deg,
+            rgb(241, 144, 0) 10deg, brown 12deg); }
+
+.box15{
+    width: 500px;
+    background-image: 
+    repeating-linear-gradient(190deg, 
+    rgba(255, 0, 0, 0.5) 40px, 
+    rgba(255, 166, 0, 0.5) 80px, 
+    rgba(0, 128, 0, 0.5) 120px, 
+    rgba(0, 0, 255, 0.5) 160px, 
+    rgba(255, 0, 0, 0.5) 200px),
+    repeating-linear-gradient(-190deg, 
+    rgba(255, 0, 0, 0.5) 40px, 
+    rgba(255, 166, 0, 0.5) 80px, 
+    rgba(0, 128, 0, 0.5) 120px, 
+    rgba(0, 0, 255, 0.5) 160px, 
+    rgba(255, 0, 0, 0.5) 200px),
+    repeating-linear-gradient(red 50px, orange 100px, green 150px, blue 200px, red 250px)
+}
+
+.box16{
+    width: 500px;
+    background-image: 
+    repeating-conic-gradient(
+        from 0deg at 80% 50%,
+        rgba(0, 255, 255, 0.5) 0% 8.25%,
+        rgba(128, 0, 128, 0.5) 8.25% 16.5%,
+        rgba(255, 0, 0, 0.5) 16.5% 25% 
+    ),
+    repeating-conic-gradient(
+        from 0deg at 50% 50%,
+        rgba(128, 0, 128, 0.5) 0% 8.25%,
+        rgba(255, 0, 0, 0.5) 8.25% 16.5%,
+        rgba(255, 255, 0, 0.5) 16.5% 25%
+    ),
+    repeating-conic-gradient(
+        from 0deg at 20% 50%,
+        orange 0% 8.25%,
+        yellow 8.25% 16.5%,
+        lime 25%
+    );
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW CSS Basics II</title>
+    <style>
+      .text-border {
+        color: white;
+        font-size: 60px;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+          1px 1px 0 black;
+        /* text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow; */
+      }
+      .box {
+        width: 150px;
+        height: 150px;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid black;
+      }
+      .box1 {
+        border: none;
+        background-color: orange;
+        box-shadow: 0 0 0 1px black;
+      }
+      .box2 {
+        position: relative;
+      }
+      .text1 {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .text2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .text3 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      .text4 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+      .text5 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .container {
+        position: relative;
+        width: fit-content;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Homework CSS Basics II</h1>
+    <h2 class="text-border">Add border using Text Shadow</h2>
+    <div class="box box1">using box shadow</div>
+
+    <h2>Position text in all corners && center of an image</h2>
+    <div class="box box2">
+      <div class="text1">Text 1</div>
+      <div class="text2">Text 2</div>
+      <div class="text3">Text 3</div>
+      <div class="text4">Text 4</div>
+      <div class="text5">Text 5</div>
+    </div>
+
+    <div class="container">
+      <img src="https://placehold.co/600x400" alt="placeholder-image" />
+      <div class="text1">Text 1</div>
+      <div class="text2">Text 2</div>
+      <div class="text3">Text 3</div>
+      <div class="text4">Text 4</div>
+      <div class="text5">Text 5</div>
+    </div>
+  </body>
+</html>
