@@ -64,3 +64,9 @@
 - Position - static, relative, absolute, fixed, sticky
 - 2d Transformation - translate, rotate, scale, skew, matrix
 - 3d transformation - perspective, preserve-3d, translate3d, translateZ, rotate3d, rotateX,Y,Z, scale3d, scaleZ
+
+# CSS Basics III
+
+- flex : layout model
+- flex-container property: flex-direction, flex-wrap, flex-flow, justify-content, align-item, gap, align-content
+- flex-item property: order, flex-grow, flex-shrink, flex-basis, flex, align-self
