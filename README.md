@@ -28,9 +28,9 @@
 
 ## HTML Basics IV
 
-- <a> - url, call, email, dir, bookmark-#id, .class
-- <div> - division tag,generic container, block element
-- <span> - inline element
+- `<a>` - url, call, email, dir, bookmark-#id, .class
+- `<div>` - division tag,generic container, block element
+- `<span>` - inline element
 - sementic tags - table, article, aside, figcaption, figure, main, footer, header, nav, article ...
 - favicon using link tag
 - added symetic tags in linus torvalds page.
@@ -73,7 +73,7 @@
 
 # CSS Basics IV
 
-- Parallax Website - object-fit:cover, bgattachment:fixed, z-index, \*style
+- [Parallax Website](https://parallax-website-chi-two.vercel.app/) - object-fit:cover, bgattachment:fixed, z-index, \*style
 - Grid - grid-item, grid-track-row/cols, Grid-lines, grid-area
 - Grid Stucture Props - gtc, gtr, gta, grid-template, gac, gar, grid-auto-flow, grid
 - Spacing - gap, row-gap, col-gap

@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--raleway);
+}
+
+:root {
+    --purple: #4E5DC0;
+    --gray: #777C85;
+
+    --robot-flex: "Roboto Flex", sans-serif;
+    --raleway: "Raleway", sans-serif;
+    --manrope: "Manrope", sans-serif;
+}
+
+#wrapper{
+    background-color: #F3F4F6;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    padding-top: 53px;
+}
+
+header{
+    max-width: 1200px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+.logo img{
+    height: 82px;
+    cursor: pointer;
+}
+
+nav{
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav > ul{
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--gray);
+    font-weight: 500px;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+
+nav>ul>li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    transition: color 0.5s;
+}
+nav>ul>li>a{
+    margin-bottom: 1em;
+}
+nav>ul>li:hover {
+    font-weight: 700;
+    color: #4E5DC0;
+}
+
+.line{
+    height: 0.1rem;
+    width: 80%;
+    background-color: var(--purple);
+    border-radius: 50%;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+nav>ul>li:hover .line{
+    opacity: 100;
+}
+
+header > button{
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+header>button:hover {
+    background-color: #38438b;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    margin-bottom: 5em;
+}
+
+.profile-sec{
+    display: flex;
+    gap: 10%;
+}
+
+.profile-info{
+    flex-basis: 40%;
+}
+
+.profile-info>h2 {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 2.3em;
+    font-weight: 400;
+    font-variation-settings:
+        "GRAD" 122,
+        "slnt" 0,
+        "XTRA" 603,
+        "XOPQ" 96,
+        "YOPQ" 100,
+        "YTLC" 514,
+        "YTUC" 712,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738;
+    margin-bottom: 0.5em;
+}
+
+.profile-info>hr {
+    width: 50%;
+    border: none;
+    height: 2px;
+    background-color: rgb(176, 176, 176);
+}
+
+.profile-info>p {
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin-top: 1em;
+}
+
+.profile-img{
+    flex-basis: 50%;
+}
+
+.profile-img > img{
+    width: 100%;
+}
+
+.profile2 > .profile-info{
+    order: 1;
+    flex-basis: 50%;
+}
+.profile2 > .profile-img {
+    flex-basis: 40%;
+}
+
+#wrapper > hr{
+    height: 10px;
+    background-color: white;
+    border-top: 2px solid var(--gray);
+} 
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    padding: 5em 6em;
+    justify-content: space-between;
+    align-content: space-between;
+    line-height: 2.3rem;
+    font-size: 1rem;
+    color: var(--gray);
+    font-family: var(--manrope);
+}
+
+/* footer > section, figure{
+   width: 16%;
+} */
+
+footer h4{
+    color: var(--purple);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: var(--raleway);
+    line-height: 0.5;
+    margin-bottom: 1em;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+footer h4:hover {
+    text-decoration: underline;
+}
+
+footer > :nth-child(3){
+    width: 20em;
+    margin-bottom: 1em;
+}
+
+footer > :nth-child(5){
+    margin-bottom: 90px;
+}
+footer> :nth-child(5) > ul {
+    list-style: none;
+}
+footer> :nth-child(5)>ul>li:hover{
+    color: var(--purple);
+    font-weight: 500;
+}
+
+footer> :nth-child(6) > a > img{
+    height: 48px;
+    margin-left: 0.5em;
+}
