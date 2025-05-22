@@ -1,3 +1,6 @@
 [submodule "02_CSS_Basics/04_CSS_Basics_IV/Parallax-Website"]
 	path = 02_CSS_Basics/04_CSS_Basics_IV/Parallax-Website
 	url = https://github.com/AmritSharma26/parallax-website.git
+[submodule "02_CSS_Basics/05_unwrap/02_my-gallery"]
+	path = 02_CSS_Basics/05_unwrap/02_my-gallery
+	url = https://github.com/AmritSharma26/My-Gallery.git
