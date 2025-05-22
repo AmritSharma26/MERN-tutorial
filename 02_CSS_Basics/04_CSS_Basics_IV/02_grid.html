@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./02_grid.css" />
+  </head>
+  <body>
+    <h1>Grid</h1>
+    <div class="container container1">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+
+    <h2>Grid Structure Properties</h2>
+    <h3>Grid-template-columns</h3>
+    <p>grid-template-columns: 150px 150px 150px</p>
+    <div class="container container2">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <p>
+      grid-template-columns: 1fr 1fr 1fr / grid-template-columns:
+      repeat(auto-fill, minmax(100px, 1fr));
+    </p>
+    <div class="container container3">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <p>grid-template-columns: 2fr 1fr 1fr</p>
+    <div class="container container4">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <p>grid-template-columns: repeat(3, 1fr)</p>
+    <div class="container container5">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <h3>grid-template-rows</h3>
+    <p>gtc:repeat(3, 1fr), grid-template-rows: 100px 200px;</p>
+    <div class="container container6">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <p>gtc:repeat(3, 1fr), grid-template-rows: 1fr repeat(3, 2fr);</p>
+    <div class="container container7">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <p>gtc:repeat(3, 1fr), grid-template-rows: minmax(100px, 1fr);</p>
+    <div class="container container8">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+
+    <h3>grid-template-areas</h3>
+    <pre>
+      grid-template-areas: 
+        "head head"
+        "nav main"
+        ". foot";
+      grid-template-rows: 50px 1fr 50px;
+      grid-template-columns: 150px 1fr;</pre
+    >
+    <div class="container container9">
+      <div class="box box9_1">box9</div>
+      <div class="box box10">box10</div>
+      <div class="box box11">box11</div>
+      <div class="box box12">box12</div>
+    </div>
+
+    <h3>grid-template</h3>
+    <pre>
+    grid-template:
+      "head head head" 50px
+      "nav main side" 1fr
+      "foot foot foot" 70px
+      / 25% 50% 25%;</pre
+    >
+    <div class="container container10">
+      <div class="box box13">box13</div>
+      <div class="box box14">box14</div>
+      <div class="box box15">box15</div>
+      <div class="box box16">box16</div>
+      <div class="box box17">box17</div>
+    </div>
+    <h3>grid-auto-columns</h3>
+    <pre>
+      grid-auto-columns: 200px; 
+      grid-auto-columns: min-content;</pre
+    >
+    <div class="container container11">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+    <h3>grid-auto-rows</h3>
+    <pre>
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 100px 200px;
+      grid-auto-rows: 100px;
+    </pre>
+    <div class="container container12">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+
+    <h3>grid-auto-flow</h3>
+    <pre>
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-auto-flow: dense;
+      grid-auto-flow: row;
+      grid-auto-flow: column;
+    </pre>
+    <div class="container container13">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+
+    <h3>grid</h3>
+    <pre>
+      grid: 200px / auto-flow;
+      grid: "a" 100px "b" 1fr "c" 300px;
+      grid: [line-name1] "a" 100px [line-name2] "b" 300px;
+      grid: repeat(3, [line1 line2 line3] 200px) / auto-flow 500px;
+    </pre>
+    <div class="container container14">
+      <div class="box box18">box18</div>
+      <div class="box box19">box19</div>
+      <div class="box box20">box20</div>
+    </div>
+
+    <h2>Spacing</h2>
+    <pre>
+      gap: 20px;
+      row-gap: 10px;
+      column-gap: 30px;
+    </pre>
+    <div class="container container15">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+      <div class="box box6">box6</div>
+      <div class="box box7">box7</div>
+      <div class="box box8">box8</div>
+      <div class="box box9">box9</div>
+    </div>
+
+    <h2>Alignment</h2>
+    <h3>justify-items, align-items, align-items</h3>
+    <pre>
+      justify-items: center;
+      justify-items: start;
+      justify-items: end;
+      align-items: center;
+      align-items: start;
+      align-items: end;
+      place-items: center center;
+    </pre>
+    <div class="container container16">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+    </div>
+
+    <h3>justify-content, align-content, place-content</h3>
+    <pre>
+      justify-content: start;
+      justify-content: end;
+      justify-content: center;
+      align-content: stretch;
+      align-content: start;
+      align-items: baseline;
+      place-content: center center;
+    </pre>
+    <div class="container container17">
+      <div class="box box1">box1</div>
+      <div class="box box2">box2</div>
+      <div class="box box3">box3</div>
+      <div class="box box4">box4</div>
+      <div class="box box5">box5</div>
+    </div>
+
+    <h2>Grid-Item Properties</h2>
+
+    <div class="container container18">
+      <div class="box box21">
+        box21
+        <br />
+        grid-column-start: 1; <br />
+        grid-column-end: 3;
+      </div>
+      <div class="box box22">
+        box22 <br />
+        grid-column: 3 / 5;
+      </div>
+      <div class="box box23">
+        box23 <br />
+        grid-row-start: 2; <br />
+        grid-row-end: 4;<br />
+      </div>
+      <div class="box box24">
+        box24 <br />
+        grid-row: 1 / 3;
+      </div>
+      <div class="box box25">
+        box25 <br />
+        grid-area: 3 / 1 / 4 / 3;
+      </div>
+      <div class="box box26">
+        box26 <br />
+        justify-self: start;
+      </div>
+      <div class="box box27">
+        box27 <br />
+        align-self: end;
+      </div>
+      <div class="box box28">
+        box28 <br />
+        place-self: center stretch;
+      </div>
+    </div>
+  </body>
+</html>

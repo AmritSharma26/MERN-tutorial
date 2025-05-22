@@ -70,3 +70,18 @@
 - flex : layout model
 - flex-container property: flex-direction, flex-wrap, flex-flow, justify-content, align-item, gap, align-content
 - flex-item property: order, flex-grow, flex-shrink, flex-basis, flex, align-self
+
+# CSS Basics IV
+
+- Parallax Website - object-fit:cover, bgattachment:fixed, z-index, \*style
+- Grid - grid-item, grid-track-row/cols, Grid-lines, grid-area
+- Grid Stucture Props - gtc, gtr, gta, grid-template, gac, gar, grid-auto-flow, grid
+- Spacing - gap, row-gap, col-gap
+- alignment - justify-item, align-item, place-item, justify-content, align-content, place-content
+- grid-item-props - grid-column, grid-col-start, grid-col-end, grid-row, grid-area, place-self, justify/align-self
+- keywords - auto, minmax, repeat, auto-fit, auto-fill, fr...
+- background - col, image, size, pos, repeat, attachment, origin, clip
+
+# unwrap I (My Gallery)
+
+- filter - grayscale
