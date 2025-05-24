@@ -1,0 +1,121 @@
+.container{
+    border: 1px solid brown;
+    background-color: yellow;
+    height: 500px;
+    width: 600px;
+}
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    gap: 10px;
+
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-content: start;
+    align-content: end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    gap: 10px;
+
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    justify-items: stretch;
+    justify-items: right;
+
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+}
+
+.box2{
+    font-size: 50px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    gap: 10px;
+
+    place-content: start;
+    place-content: end;
+    place-content: center;
+    place-content: space-between;
+    place-content: space-around;
+    place-content: space-evenly;
+    place-content: start center;
+    place-content: center space-around;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    gap: 10px;
+
+    place-items: start;
+    place-items: center;
+    place-items: baseline;
+    
+    place-items: start center;
+    place-items: baseline center;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+
+    gap: 10px;
+}
+
+.box7{
+    justify-self: end;
+    justify-self: start;
+    justify-self: stretch;
+    justify-self: center;
+}
+
+.box8{
+    align-self: start;
+    align-self: end;
+    align-self: stretch;
+    align-self: baseline;
+    align-self: center;
+}
+
+.box9{
+    place-self: start;
+    place-self: end;
+    place-self: center;
+    place-self: stretch;
+    place-self: start center;
+    place-self: end start;
+}

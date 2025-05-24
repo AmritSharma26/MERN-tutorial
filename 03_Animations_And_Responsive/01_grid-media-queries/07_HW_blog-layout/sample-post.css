@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+    height: 100vh;
+    display: grid;
+    gap: 2em;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 30%;
+    grid-template-areas: 
+    "head head"
+    "main side";
+}
+
+header {
+    grid-area: head;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>p {
+    color: gray;
+    text-decoration: underline;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.search {
+    display: flex;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    border-right: gray 1px solid;
+}
+
+.search button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 2px;
+}
+
+.search button svg {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul, ol{
+    margin-left: 3rem;
+}
+aside{
+    grid-area: side;
+}
+
+main button{
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.btns :nth-child(1){
+    border: blue 2px solid;
+    color: blue
+}
+.btns :nth-child(2){
+    border: gray 2px solid;
+    color: gray
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.achive{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.else{
+    display: flex;
+        flex-direction: column;
+        gap: 5px;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+header{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+header > p{
+    color: gray;
+    text-decoration: underline;
+}
+
+h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.search{
+    display: flex;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.search input{
+    border: none;
+    outline: none;border-right: gray 1px solid;
+}
+.search button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 2px;
+}
+.search button svg{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 12rem;
+    position: relative;
+}
+.tag{
+    color: blue;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.blog-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.blog-date{
+    font-family: 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+.blog-desc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(87, 87, 87);
+}
+.blog-info{
+    flex-grow: 1;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card2 > .tag{
+    color: green;
+}

@@ -86,4 +86,19 @@
 
 - [My Gallery](https://my-gallery-beta-ecru.vercel.app/)
 - filter - grayscale
--
+
+# Grids, Media-Queries and Breakpoints (Animations and Respon - I)
+
+- Grid Structure Properties
+  - grid-column-start, grid-column-end
+  - grid-row-start, grid-row-end
+  - grid-area
+  - grid-area-template
+  - repeat(), fr, grid-auto-rows: minmax()
+  - justify-content, align-content
+  - justify-items, align-items
+  - place-items, place-content
+- Grid Item Properties
+  - align-self, justify-self, place-self
+- Neseted Grids - subgrid
+- Media Queries - @media, on bases of breakpoints (devices sizes)
