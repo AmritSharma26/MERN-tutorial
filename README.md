@@ -65,13 +65,13 @@
 - 2d Transformation - translate, rotate, scale, skew, matrix
 - 3d transformation - perspective, preserve-3d, translate3d, translateZ, rotate3d, rotateX,Y,Z, scale3d, scaleZ
 
-# CSS Basics III
+## CSS Basics III
 
 - flex : layout model
 - flex-container property: flex-direction, flex-wrap, flex-flow, justify-content, align-item, gap, align-content
 - flex-item property: order, flex-grow, flex-shrink, flex-basis, flex, align-self
 
-# CSS Basics IV
+## CSS Basics IV
 
 - [Parallax Website](https://parallax-website-chi-two.vercel.app/) - object-fit:cover, bgattachment:fixed, z-index, \*style
 - Grid - grid-item, grid-track-row/cols, Grid-lines, grid-area
@@ -82,12 +82,14 @@
 - keywords - auto, minmax, repeat, auto-fit, auto-fill, fr...
 - background - col, image, size, pos, repeat, attachment, origin, clip
 
-# unwrap I (My Gallery)
+## unwrap I (My Gallery)
 
 - [My Gallery](https://my-gallery-beta-ecru.vercel.app/)
 - filter - grayscale
 
-# Grids, Media-Queries and Breakpoints (Animations and Respon - I)
+# Animations and Responsiveness
+
+## Grids, Media-Queries and Breakpoints (Animations and Respon - I)
 
 - Grid Structure Properties
   - grid-column-start, grid-column-end
@@ -102,3 +104,10 @@
   - align-self, justify-self, place-self
 - Neseted Grids - subgrid
 - Media Queries - @media, on bases of breakpoints (devices sizes)
+
+## transition and animation
+
+- functions - calc(), minmax() ...
+- variables - local, global(:root)
+- transition - timimg, properties, delay, timing-fuction
+- animation - name, duration, iteration-count, fill-mode, timing-dunction, delay, direction
