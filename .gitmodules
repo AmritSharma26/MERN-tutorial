@@ -4,3 +4,6 @@
 [submodule "02_CSS_Basics/05_unwrap/02_my-gallery"]
 	path = 02_CSS_Basics/05_unwrap/02_my-gallery
 	url = https://github.com/AmritSharma26/My-Gallery.git
+[submodule "03_Animations_And_Responsive/02_transitions-animations/04_hw_button-loader"]
+	path = 03_Animations_And_Responsive/02_transitions-animations/04_hw_button-loader
+	url = https://github.com/AmritSharma26/css-components.git
