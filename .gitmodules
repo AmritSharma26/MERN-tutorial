@@ -7,3 +7,6 @@
 [submodule "03_Animations_And_Responsive/02_transitions-animations/04_hw_button-loader"]
 	path = 03_Animations_And_Responsive/02_transitions-animations/04_hw_button-loader
 	url = https://github.com/AmritSharma26/css-components.git
+[submodule "03_Animations_And_Responsive/03_portfolio_website"]
+	path = 03_Animations_And_Responsive/03_portfolio_website
+	url = https://github.com/AmritSharma26/portfolio-website.git
