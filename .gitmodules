@@ -10,3 +10,6 @@
 [submodule "03_Animations_And_Responsive/03_portfolio_website"]
 	path = 03_Animations_And_Responsive/03_portfolio_website
 	url = https://github.com/AmritSharma26/portfolio-website.git
+[submodule "03_Animations_And_Responsive/04_unwrap_morder-chair"]
+	path = 03_Animations_And_Responsive/04_unwrap_morder-chair
+	url = https://github.com/AmritSharma26/modern-chair.git
