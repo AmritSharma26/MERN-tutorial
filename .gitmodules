@@ -16,3 +16,6 @@
 [submodule "04_Tailwind/03_razorpay-clone"]
 	path = 04_Tailwind/03_razorpay-clone
 	url = https://github.com/AmritSharma26/razorpay-clone.git
+[submodule "04_Tailwind/04_discord-clone"]
+	path = 04_Tailwind/04_discord-clone
+	url = https://github.com/AmritSharma26/Discord-front-clone.git

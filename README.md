@@ -133,9 +133,9 @@
 
 ## Tailwind II,III,IV,V - Razorpay Clone
 
--   [Razorpay-Clone]()
+-   [Razorpay-Clone](https://razorpay-clone-zen.netlify.app/)
 -   extend tailwind added animations,fonts,colors,etc.
 
 ## Unwrap III - Discord Clone
 
--[Discord-Clone]()
+-   [Discord-Clone](https://discord-clone-front.netlify.app/)
