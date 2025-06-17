@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind using CDN</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+            @theme {
+                --color-clifford: #da373d;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul
+                class="flex max-w-[1080px] w-11/12 mx-auto min-h-[72px] items-center gap-10 bg-gradient-to-r from-clifford text-white px-5 font-semibold"
+            >
+                <li
+                    class="hover:bg-red-800 p-5 cursor-pointer transition-color duration-500"
+                >
+                    <a href="#">Home</a>
+                </li>
+                <li
+                    class="hover:bg-red-800 p-5 cursor-pointer transition-color duration-500"
+                >
+                    <a href="#">Projects</a>
+                </li>
+                <li
+                    class="hover:bg-red-800 p-5 cursor-pointer transition-color duration-500"
+                >
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>

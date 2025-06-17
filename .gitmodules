@@ -13,3 +13,6 @@
 [submodule "03_Animations_And_Responsive/04_unwrap_morder-chair"]
 	path = 03_Animations_And_Responsive/04_unwrap_morder-chair
 	url = https://github.com/AmritSharma26/modern-chair.git
+[submodule "04_Tailwind/03_razorpay-clone"]
+	path = 04_Tailwind/03_razorpay-clone
+	url = https://github.com/AmritSharma26/razorpay-clone.git
