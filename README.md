@@ -139,3 +139,34 @@
 ## Unwrap III - Discord Clone
 
 -   [Discord-Clone](https://discord-clone-front.netlify.app/)
+
+# JS Basics
+
+## JS Basics I
+
+-   JS Intro. js engine(like v8)
+-   Internal and external Js
+-   Variables - let, var(global)
+-   const
+-   Primitive type variable - strings, numbers, booleans, undefined, null, bigint
+-   Reference type variable - object, Array, Functions
+-   operatorrs - arithmatic, assignment, ternary, bitwise, logical
+-   falsy and truthy val
+-   operator precedence
+-   Control Statements - if-else, switch
+-   loops - for, while, do-while, for-in, for-of
+
+## JS Basics II - Objects
+
+-   Object Oriented Programming
+-   object creation - factory func, Constructor func
+-   refence type vs primitive type
+-   for-in(object), for-of(iteratables)
+-   cloning Object - iteration, .assign, spread
+
+## JS Basics III - Inbuild Obj and Arrays
+
+-   Math - abs, round, floor, ceil, trunc, max, min, pow, sqrt, random, PI
+-   String - primtive but wraps in Object (Auto-Boxing)
+-   String methods - length,toUpperCase,toLowerCase,charAt,indexOf,.slice,relace,includes,.split,trim
+-
